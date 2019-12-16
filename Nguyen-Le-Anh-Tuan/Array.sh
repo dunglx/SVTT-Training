@@ -1,0 +1,10 @@
+#!/bin/sh
+NAME[0]="Zara"
+NAME[1]="Qudir"
+NAME[2]="Mhnaz"
+NAME[3]="Ayan"
+NAME[4]="Daisy"
+echo "First Index: ${NAME[0]}"
+echo "Second Index: ${NAME[1]}"
+echo "First Method: ${NAME[2]}"
+echo "Second Method: ${NAME[@]}"
